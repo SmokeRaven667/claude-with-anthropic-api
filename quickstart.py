@@ -32,8 +32,6 @@ answer = chat(messages)
 # Add Claude's response to the conversation history
 add_assistant_message(messages, answer)
 
-answer = chat(messages)
-
 # Add a follow-up question
 add_user_message(messages, "Write another sentence")
 
